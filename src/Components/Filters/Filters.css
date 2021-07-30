@@ -1,0 +1,174 @@
+.Filters-section{
+    /* float: right; */
+    background-color: rgb(246, 246, 246);
+    /* max-width:1024px; */
+    /* margin: 0px 240px 10px 10px; */
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+}
+
+.Filters-section_Cataes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+   /* width: 285px; */
+   width: 100%;
+   margin: 0 0.5%;
+   /* height: 35px; */
+   border-radius: 4px;
+   border:1px solid rgb(218, 218, 218);
+   text-align: right;
+   direction: rtl;
+   font-size: 16px;
+   font-family: inherit;
+   padding: 7px 10px;
+   color: #6d6d6d;
+}
+.Small{
+    box-sizing: border-box;
+    width: 100%!important;
+    text-align: center;
+    direction: rtl;
+}
+.Small50{
+    box-sizing: border-box;
+    width: 50%!important;
+    text-align: center;
+    direction: rtl;
+}
+.Filters-section_Ranges{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 0;
+    
+}
+.priceFilter{
+    width:200px;
+    text-align: right;
+}
+.Price-range{
+    display: flex;
+    margin:8px 0px;
+}
+.Price-range input{
+    margin:0px 2px;
+}
+.label{
+    margin:8px 0;
+    display:inline-block;
+    direction: rtl;
+}
+.type-filter{
+    /* margin: 0 20px 0 0; */
+    direction: rtl;
+    text-align: right;
+    width: 120px;
+    margin: 0 20px;
+}
+.type-filter form{
+font-size: 16px;
+}
+.type-filter form label{
+    line-height: 30px;
+    }
+.Model-Filter{
+    width:100px;
+    margin: 0 30px;
+}
+.mediumButt{
+    /* width: 200px; */
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+}
+.usage-range{
+    width: 200px;
+    display: flex;
+    margin: 0 20px;
+    
+}
+.usage-range input{
+    margin: 0px 2px;
+}
+.brand-filter{
+    width: 100px;
+    margin: 0 20px;
+}
+.Filters-section_Cheks{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.Filters-section_Cheks label{
+margin: 0 5px;
+}
+.buttonassign{
+    width:100px;
+    height: 40px;
+    background-color: var(--myBlue);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.checBoxes{
+    display: flex;
+}
+.checBoxes p{
+    margin: 0 10px;
+    font-size: 18px;
+}
+.states{
+    width: 100px;
+    height: 100%;
+    border: none;
+    direction: rtl;
+    font-size: 14px;
+    font-family: inherit;
+}
+.off{
+    display: none;
+}
+.usage-filter{
+    /* width:100px; */
+    margin: 0 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .Filters-section_Ranges{
+        display: block;
+        direction: rtl;
+    }
+    .usage-filter{
+        width:100px;
+   }
+}
+@media only screen and (max-width: 800px) {
+
+    .Filters-section_Ranges{
+        display: block;
+        direction: rtl;
+    }
+    .aside{
+        display: none;
+    }
+    .Filters-section{
+        margin: 0 50px;
+    }
+    .buttonRegister{
+        display: none;
+    }
+
+}
+

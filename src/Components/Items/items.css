@@ -1,0 +1,79 @@
+.items{
+    border: 1px solid rgb(207, 207, 207);
+    width: 250px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 4px;
+    
+}
+.item{
+height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-bottom: 1px solid gray;
+   
+}
+.imageSide{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    
+}
+.imageSide img{
+   width: 100%;
+}
+.infoSide{
+    text-align: right;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+}
+.item-Price{
+    text-align: right;
+    font-size: 12px;
+}
+.infoisde-bottom{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    line-height: 25px;
+    font-size: 12px;
+    width: 95%;
+}
+.infor_bott{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.chat{
+    text-align: center;
+    line-height: 20px;
+    color:  rgb(73, 243, 73);
+    border: 1px solid rgb(73, 243, 73);
+    border-radius: 4px;
+    width: 40px;
+    cursor: pointer;
+}
+.ItemsLayout{
+    flex-direction: row-reverse;
+    /* max-width: 1024px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    background-color: rgb(246, 246, 246);
+}
+a{
+    text-decoration: none!important;
+    color: none;
+    color: rgb(49, 49, 49)
+}

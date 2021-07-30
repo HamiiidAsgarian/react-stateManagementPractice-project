@@ -1,0 +1,33 @@
+.AboutUs-section{
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+}
+.AboutUs-holder{
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+
+}
+.AboutUs-holder>div{
+margin-bottom: 50px;
+line-height: 2.6em;
+font-size: 14px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    flex-direction: column;
+}
+.icons-holder{
+    margin: 10px;
+}
+.icons-holder>i{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

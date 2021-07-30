@@ -1,0 +1,48 @@
+.mygarage-section{
+    margin-top: 60px;
+    /* background-color: rgb(255, 255, 255); */
+}
+.mygarage-holder{
+    padding: 50px;
+    /* background-color: rgb(250, 250, 250); */
+    max-width: 800px;
+    margin: auto;
+}
+.myGarage-options{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    /* padding: 10px; */
+    color: rgb(180, 180, 180);
+    margin: 0;
+}
+.myGarage-options>div{
+    margin: -1px 0px;
+    padding: 8px 10px;
+    height: 100%;
+    cursor: pointer;
+    /* border-bottom: 1px solid rgb(180, 180, 180); */
+    /* transition: all 0.5s; */
+
+}
+/* .myGarage-options>div:hover{
+color: black;
+    border-bottom: 1px solid var(--myBlue);
+} */
+.Mygarage-content{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Mygarage-content>p{
+margin: 20px;
+}
+
+.Under{
+    border-bottom: 3px solid var(--myBlue);
+}

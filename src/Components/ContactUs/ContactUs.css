@@ -1,0 +1,17 @@
+.ContactUs-section{
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+}
+.ContactUs-holder{
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.ContactUs-holder>p{
+margin-bottom: 50px;
+line-height: 1.6em;
+font-size: 14px;
+}
